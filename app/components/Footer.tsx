@@ -6,12 +6,12 @@ export default function Footer() {
         <footer className="relative overflow-hidden bg-[#efeff3] pt-20 pb-32 lg:pb-40">
             {/* Background Large Text Effect */}
             <div className="absolute bottom-0 left-0 right-0 z-0 select-none overflow-hidden leading-none pointer-events-none">
-                <span className="block text-[12rem] font-bold text-white whitespace-nowrap text-center opacity-100 lg:text-[18rem]">
-                    Marble & Grove
+                <span className="block text-[12rem] font-bold text-[#E5E7E6] whitespace-nowrap text-center opacity-100 lg:text-[18rem]">
+                    arble & Grove
                 </span>
             </div>
 
-            <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-8">
+            <div className="relative z-10 mx-auto w-full max-w-8xl px-6 lg:px-8">
                 <div className="rounded-[2.5rem] bg-white p-12 shadow-sm border border-gray-100">
                     <div className="flex flex-col gap-12 lg:flex-row lg:justify-between">
 

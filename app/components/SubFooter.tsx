@@ -15,7 +15,7 @@ const navLinks = [
 
 export default function SubFooter() {
     return (
-        <section className="bg-white py-12 border-t border-gray-100">
+        <section className="bg-white py-6 border-t border-gray-100">
             <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-between gap-8 px-4 lg:flex-row lg:px-6">
 
                 {/* Left: Logo */}
@@ -23,8 +23,8 @@ export default function SubFooter() {
                     <Image
                         src="/footerlogo.png"
                         alt="Marble & Grove Nigeria Ltd"
-                        width={160}
-                        height={50}
+                        width={120}
+                        height={30}
                         className="object-contain"
                     />
                 </div>
