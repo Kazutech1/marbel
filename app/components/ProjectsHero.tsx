@@ -46,7 +46,7 @@ export default function ProjectsHero() {
                 </Link>
 
                 {/* Nav Links */}
-                <div className="hidden lg:flex items-center gap-6 text-sm font-medium tracking-wide">
+                <div className="hidden lg:flex items-center gap-4 xl:gap-6 text-[11px] min-[1150px]:text-xs xl:text-sm font-medium tracking-wide">
                     <Link href="/" className="text-gray-300 transition hover:text-white">Home</Link>
                     <Link href="/about" className="text-gray-300 transition hover:text-white">Who We Are</Link>
                     <Link href="/services" className="text-gray-300 transition hover:text-white">Our Services</Link>

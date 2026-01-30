@@ -24,7 +24,7 @@ export default function AboutHero() {
                     />
                 </Link>
 
-                <div className="hidden lg:flex items-center gap-8 text-sm font-medium tracking-wide">
+                <div className="hidden lg:flex items-center gap-4 xl:gap-8 text-[11px] min-[1150px]:text-xs xl:text-sm font-medium tracking-wide">
                     <Link href="/" className="text-gray-600 transition hover:text-black">
                         Home
                     </Link>

@@ -43,7 +43,7 @@ export default function Hero() {
             />
           </Link>
 
-          <div className="hidden lg:flex items-center gap-8 text-sm font-medium tracking-wide">
+          <div className="hidden lg:flex items-center gap-4 xl:gap-8 text-[11px] min-[1150px]:text-xs xl:text-sm font-medium tracking-wide">
             <Link
               href="/"
               className="rounded-full bg-white px-6 py-2 text-black transition hover:bg-white/90"
