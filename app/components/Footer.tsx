@@ -46,8 +46,7 @@ export default function Footer() {
                                 <h3 className="font-semibold text-gray-900">Company</h3>
                                 <nav className="flex flex-col gap-3">
                                     <Link href="/" className="text-sm text-gray-500 hover:text-gray-900">Home</Link>
-                                    <Link href="/about" className="text-sm text-gray-500 hover:text-gray-900">Who We Are</Link>
-                                    <Link href="/services" className="text-sm text-gray-500 hover:text-gray-900">What We Do</Link>
+                                    <Link href="/about" className="text-sm text-gray-500 hover:text-gray-900">What We Do</Link>
                                     <Link href="/services" className="text-sm text-gray-500 hover:text-gray-900">Our Services</Link>
                                     <Link href="/projects" className="text-sm text-gray-500 hover:text-gray-900">Projects</Link>
                                     <Link href="/execution-approach" className="text-sm text-gray-500 hover:text-gray-900">Execution Approach</Link>

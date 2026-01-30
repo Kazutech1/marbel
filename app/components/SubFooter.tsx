@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Who We Are", path: "/about" },
+    { name: "What We Do", path: "/about" },
     { name: "Our Services", path: "/services" },
     { name: "Projects", path: "/projects" },
     { name: "Execution Approach", path: "/execution-approach" },

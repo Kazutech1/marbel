@@ -42,7 +42,7 @@ export default function ContactHero() {
 
                 <div className="hidden lg:flex items-center gap-4 xl:gap-8 text-[11px] min-[1150px]:text-xs xl:text-[13px] font-medium tracking-wide text-gray-200">
                     <Link href="/" className="transition-colors hover:text-white">Home</Link>
-                    <Link href="/about" className="transition-colors hover:text-white">Who We Are</Link>
+                    <Link href="/about" className="transition-colors hover:text-white">What We Do</Link>
                     <Link href="/services" className="transition-colors hover:text-white">Our Services</Link>
                     <Link href="/projects" className="transition-colors hover:text-white">Projects</Link>
                     <Link href="/execution-approach" className="transition-colors hover:text-white">Execution Approach</Link>

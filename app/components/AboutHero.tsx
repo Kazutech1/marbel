@@ -28,8 +28,7 @@ export default function AboutHero() {
                     <Link href="/" className="text-gray-600 transition hover:text-black">
                         Home
                     </Link>
-                    <Link href="/about" className="rounded-full bg-black px-6 py-2 text-white transition hover:bg-black/90">Who We Are</Link>
-                    <Link href="/services" className="text-gray-600 transition hover:text-black">What We Do</Link>
+                    <Link href="/about" className="rounded-full bg-[#E6D8B5] px-6 py-2 text-black transition hover:bg-white/90">What We Do</Link>
                     <Link href="/services" className="text-gray-600 transition hover:text-black">Our Services</Link>
                     <Link href="/projects" className="text-gray-600 transition hover:text-black">Projects</Link>
                     <Link href="/execution-approach" className="text-gray-600 transition hover:text-black">Execution Approach</Link>
@@ -53,7 +52,7 @@ export default function AboutHero() {
                         className="flex flex-col justify-between space-y-12 lg:space-y-0 h-full"
                     >
                         <h1 className="font-ibm-plex text-4xl font-semibold leading-tight tracking-tight md:text-5xl lg:text-6xl text-gray-900">
-                            Who We Are
+                            What We Do
                         </h1>
                         <p className="max-w-md text-sm leading-relaxed text-gray-500">
                             Marble & Grove Nigeria Ltd operates as a subsidiary of Marble Group, benefiting from Group-level governance, risk management, and performance oversight.

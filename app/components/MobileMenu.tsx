@@ -7,7 +7,7 @@ import { createPortal } from "react-dom";
 
 const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Who We Are", href: "/about" },
+    { name: "What We Do", href: "/about" },
     { name: "Our Services", href: "/services" },
     { name: "Projects", href: "/projects" },
     { name: "Execution Approach", href: "/execution-approach" },

@@ -50,8 +50,7 @@ export default function Hero() {
             >
               Home
             </Link>
-            <Link href="/about" className="text-gray-200 transition hover:text-white">Who We Are</Link>
-            <Link href="/services" className="text-gray-200 transition hover:text-white">What We Do</Link>
+            <Link href="/about" className="text-gray-200 transition hover:text-white">What We Do</Link>
             <Link href="/services" className="text-gray-200 transition hover:text-white">Our Services</Link>
             <Link href="/projects" className="text-gray-200 transition hover:text-white">Projects</Link>
             <Link href="/execution-approach" className="text-gray-200 transition hover:text-white">Execution Approach</Link>

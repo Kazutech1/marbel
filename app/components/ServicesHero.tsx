@@ -28,9 +28,9 @@ export default function ServicesHero() {
                 </Link>
 
                 {/* Desktop Menu */}
-                <div className="hidden lg:flex items-center gap-4 xl:gap-6 text-[11px] min-[1150px]:text-xs xl:text-sm font-medium text-gray-300">
+                <div className="hidden lg:flex items-center gap-4 xl:gap-6 text-[11px] min-[1150px]:text-xs xl:text-sm font-small text-gray-300">
                     <Link href="/" className="hover:text-white transition">Home</Link>
-                    <Link href="/about" className="hover:text-white transition">Who We Are</Link>
+                    <Link href="/about" className="hover:text-white transition">What We Do</Link>
                     <Link href="/services" className="bg-white text-black px-5 py-2.5 rounded-full font-semibold transition">Our Services</Link>
                     <Link href="/projects" className="hover:text-white transition">Projects</Link>
                     <Link href="/execution-approach" className="hover:text-white transition">Execution Approach</Link>
