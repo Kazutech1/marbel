@@ -11,9 +11,9 @@ const navLinks = [
     { name: "Our Services", href: "/services" },
     { name: "Projects", href: "/projects" },
     { name: "Execution Approach", href: "/execution-approach" },
-    { name: "ESG", href: "/#governance" },
-    { name: "News", href: "#" },
-    { name: "Careers", href: "#" },
+    { name: "ESG", href: "/esg" },
+    { name: "News", href: "/news" },
+    { name: "Careers", href: "/careers" },
     { name: "Contact", href: "/contact" },
 ];
 

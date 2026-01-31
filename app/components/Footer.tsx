@@ -36,7 +36,7 @@ export default function Footer() {
                             {/* Careers Column */}
                             <div className="flex flex-col gap-4">
                                 <h3 className="font-semibold text-gray-900">Careers</h3>
-                                <Link href="#" className="text-sm text-gray-500 hover:text-gray-900">
+                                <Link href="/careers" className="text-sm text-gray-500 hover:text-gray-900">
                                     Careers
                                 </Link>
                             </div>
@@ -50,8 +50,8 @@ export default function Footer() {
                                     <Link href="/services" className="text-sm text-gray-500 hover:text-gray-900">Our Services</Link>
                                     <Link href="/projects" className="text-sm text-gray-500 hover:text-gray-900">Projects</Link>
                                     <Link href="/execution-approach" className="text-sm text-gray-500 hover:text-gray-900">Execution Approach</Link>
-                                    <Link href="/#governance" className="text-sm text-gray-500 hover:text-gray-900">ESG</Link>
-                                    <Link href="#" className="text-sm text-gray-500 hover:text-gray-900">News</Link>
+                                    <Link href="/esg" className="text-sm text-gray-500 hover:text-gray-900">ESG</Link>
+                                    <Link href="/news" className="text-sm text-gray-500 hover:text-gray-900">News</Link>
                                     <Link href="/contact" className="text-sm text-gray-500 hover:text-gray-900">Contact</Link>
                                 </nav>
                             </div>

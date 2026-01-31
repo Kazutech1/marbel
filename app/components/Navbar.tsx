@@ -13,9 +13,9 @@ const navLinks = [
     { name: "Our Services", href: "/services" },
     { name: "Projects", href: "/projects" },
     { name: "Execution Approach", href: "/execution-approach" },
-    { name: "#governance", href: "/#governance", label: "ESG" },
-    { name: "News", href: "#" },
-    { name: "Careers", href: "#" },
+    { name: "ESG", href: "/esg" },
+    { name: "News", href: "/news" },
+    { name: "Careers", href: "/careers" },
     { name: "Contact", href: "/contact" },
 ];
 
@@ -32,13 +32,13 @@ export default function Navbar() {
     }, []);
 
     // Determine variant based on path and scroll
-    const isHome = pathname === "/";
-    const isAbout = pathname === "/about";
+    const lightPages = ["/about", "/news", "/esg"];
+    const isLightPage = lightPages.includes(pathname);
 
     // Scrolled state always uses light style (white bg, black text)
     // Non-scrolled state depends on whether the page hero is light or dark
-    // Most heroes are dark (Home, Services, Projects, etc.), but About is light
-    const useLightStyle = scrolled || isAbout;
+    // About, News, and ESG pages have white background heroes
+    const useLightStyle = scrolled || isLightPage;
 
     return (
         <motion.nav
@@ -64,7 +64,7 @@ export default function Navbar() {
                 <div className="hidden lg:flex items-center gap-4 xl:gap-8 text-[11px] min-[1150px]:text-xs xl:text-sm font-medium tracking-wide">
                     {navLinks.map((link) => {
                         const href = link.href;
-                        const label = link.label || link.name;
+                        const label = link.name;
                         const isActive = pathname === href;
 
                         return (

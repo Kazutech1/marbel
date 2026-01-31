@@ -29,7 +29,7 @@ export default function ServicesHero() {
             </motion.div>
 
             {/* Hero Content */}
-            <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-12 pt-16 pb-24">
+            <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-12 pt-40 pb-24">
                 <div className="flex flex-col gap-16 lg:flex-row lg:items-start lg:gap-20">
 
                     {/* Left Text */}
