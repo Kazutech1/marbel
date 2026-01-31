@@ -12,7 +12,7 @@ export default function Services() {
                 <ServicesList />
             </AnimatedSection>
             <Footer />
-            <SubFooter />
+            {/* <SubFooter /> */}
         </main>
     );
 }

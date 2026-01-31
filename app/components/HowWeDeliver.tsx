@@ -56,7 +56,7 @@ export default function HowWeDeliver() {
                 <div className="relative w-full lg:w-1/2 min-h-[400px] lg:min-h-0">
                     <div className="relative h-full w-full">
                         <Image
-                            src="/howwedeliver.png"
+                            src="/services-woman.jpg"
                             alt="Engineers planning on site"
                             fill
                             className="object-cover"

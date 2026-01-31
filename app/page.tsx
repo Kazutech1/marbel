@@ -32,7 +32,7 @@ export default function Home() {
         <Contact />
       </AnimatedSection>
       <Footer />
-      <SubFooter />
+      {/* <SubFooter /> */}
     </main>
   );
 }

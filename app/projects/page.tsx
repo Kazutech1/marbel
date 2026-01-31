@@ -32,7 +32,7 @@ export default function ProjectsPage() {
                 <ClientsPartners />
             </AnimatedSection>
             <Footer />
-            <SubFooter />
+            {/* <SubFooter /> */}
         </main>
     );
 }

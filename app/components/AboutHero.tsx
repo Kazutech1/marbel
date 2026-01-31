@@ -3,46 +3,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import MobileMenu from './MobileMenu';
 
 export default function AboutHero() {
     return (
         <div className="relative w-full bg-white font-sans text-black overflow-hidden">
-            {/* Navbar */}
-            <motion.nav
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                className="flex items-center justify-between px-8 py-6 md:px-12 lg:px-16"
-            >
-                <Link href="/" className="relative h-12 w-32 md:h-16 md:w-40">
-                    <Image
-                        src="/footerlogo.png"
-                        alt="Marble & Grove Nigeria Ltd"
-                        fill
-                        className="object-contain"
-                    />
-                </Link>
-
-                <div className="hidden lg:flex items-center gap-4 xl:gap-8 text-[11px] min-[1150px]:text-xs xl:text-sm font-medium tracking-wide">
-                    <Link href="/" className="text-gray-600 transition hover:text-black">
-                        Home
-                    </Link>
-                    <Link href="/about" className="rounded-full bg-[#E6D8B5] px-6 py-2 text-black transition hover:bg-white/90">What We Do</Link>
-                    <Link href="/services" className="text-gray-600 transition hover:text-black">Our Services</Link>
-                    <Link href="/projects" className="text-gray-600 transition hover:text-black">Projects</Link>
-                    <Link href="/execution-approach" className="text-gray-600 transition hover:text-black">Execution Approach</Link>
-                    <Link href="/#governance" className="text-gray-600 transition hover:text-black">ESG</Link>
-                    <Link href="#" className="text-gray-600 transition hover:text-black">News</Link>
-                    <Link href="#" className="text-gray-600 transition hover:text-black">Careers</Link>
-                    <Link href="/contact" className="text-gray-600 transition hover:text-black">Contact</Link>
-                </div>
-
-                <MobileMenu light />
-            </motion.nav>
-
             {/* Content Area */}
-            <div className="px-8 py-12 md:px-12 lg:px-16">
+            <div className="px-8 pt-32 pb-12 md:px-12 lg:px-16">
                 <div className="grid gap-12 lg:grid-cols-2 lg:gap-24 mb-16">
                     {/* Left Column */}
                     <motion.div
@@ -91,7 +57,7 @@ export default function AboutHero() {
                     />
                 </motion.div>
             </div>
-        </div>
+        </div >
     );
 }
 

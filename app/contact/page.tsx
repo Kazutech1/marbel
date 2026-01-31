@@ -16,7 +16,7 @@ export default function ContactPage() {
                 <CorporateEnquiries />
             </AnimatedSection>
             <Footer />
-            <SubFooter />
+            {/* <SubFooter /> */}
         </main>
     );
 }

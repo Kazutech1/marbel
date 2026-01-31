@@ -40,7 +40,7 @@ export default function ExecutionApproachPage() {
                 <ProjectHandover />
             </AnimatedSection>
             <Footer />
-            <SubFooter />
+            {/* <SubFooter /> */}
         </main>
     );
 }

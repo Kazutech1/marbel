@@ -23,6 +23,8 @@ export const metadata: Metadata = {
   description: "A Nigerian construction and contracts execution company.",
 };
 
+import Navbar from "./components/Navbar";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -33,6 +35,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${ibmPlexSans.variable} antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>

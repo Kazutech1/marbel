@@ -3,45 +3,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import MobileMenu from './MobileMenu';
+
 
 export default function ServicesHero() {
     return (
         <div className="relative min-h-screen w-full bg-[#0a0a0a] font-sans text-white overflow-hidden">
-            {/* Navbar */}
-            <motion.nav
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                className="flex items-center justify-between px-6 py-8 lg:px-12 bg-transparent relative z-20"
-            >
-                {/* Logo */}
-                <Link href="/" className="flex items-center gap-2">
-                    <div className="relative w-32 h-12">
-                        <Image
-                            src="/services-logo-2.png"
-                            alt="Marble & Grove Logo"
-                            fill
-                            className="object-contain"
-                        />
-                    </div>
-                </Link>
 
-                {/* Desktop Menu */}
-                <div className="hidden lg:flex items-center gap-4 xl:gap-6 text-[11px] min-[1150px]:text-xs xl:text-sm font-small text-gray-300">
-                    <Link href="/" className="hover:text-white transition">Home</Link>
-                    <Link href="/about" className="hover:text-white transition">What We Do</Link>
-                    <Link href="/services" className="bg-white text-black px-5 py-2.5 rounded-full font-semibold transition">Our Services</Link>
-                    <Link href="/projects" className="hover:text-white transition">Projects</Link>
-                    <Link href="/execution-approach" className="hover:text-white transition">Execution Approach</Link>
-                    <Link href="/#governance" className="hover:text-white transition">ESG</Link>
-                    <Link href="#" className="hover:text-white transition">News</Link>
-                    <Link href="#" className="hover:text-white transition">Careers</Link>
-                    <Link href="/contact" className="hover:text-white transition">Contact</Link>
-                </div>
-
-                <MobileMenu />
-            </motion.nav>
 
             {/* Background Image Asset */}
             <motion.div
